@@ -32,7 +32,7 @@ const projects = {
     recipe: {
         tag:      'Flask · React · Docker · CI/CD',
         title:    'Recipe Platform',
-        subtitle: 'A full-stack web application for sharing, searching, and rating cooking recipes. Backend in Python Flask, frontend in React + TypeScript, deployed via Docker and GitHub Actions CI/CD to Render.',
+        subtitle: 'A full-stack web application for sharing, searching, and rating cooking recipes. Backend in Python Flask, frontend in React + TypeScript, deployed via Docker and GitHub Actions CI/CD to Render. (Dec 2025 - Feb 2026)',
         techs:    ['Python', 'Flask', 'React', 'TypeScript', 'PostgreSQL', 'Redis', 'Docker', 'GitHub Actions', 'Nginx', 'Gunicorn', 'JWT', 'Mailpit'],
         how:      'The backend is a Flask REST API served in production by Gunicorn inside a Docker container. The React + TypeScript frontend is built with Vite for development and served by Nginx in production. Local development uses docker-compose to spin up PostgreSQL, Redis, Mailpit, and the backend together. CI/CD is fully automated via GitHub Actions: on every push to main, it detects changes in client/ or server/, builds production Docker images (multi-stage), pushes them to GitHub Container Registry, and triggers Render deploy hooks. Deploy time is 5–10 minutes from push to live.',
         linkText: 'github.com/VladK333 — RecipePlatform',
@@ -42,7 +42,7 @@ const projects = {
     pubsub: {
         tag:      'C · TCP · Parallel Programming',
         title:    'Publisher–Subscriber TCP System',
-        subtitle: 'A concurrent Pub/Sub messaging system built in C, using a TCP client–server architecture with a thread pool, thread-safe data structures, and message history per topic.',
+        subtitle: 'A concurrent Pub/Sub messaging system built in C, using a TCP client–server architecture with a thread pool, thread-safe data structures, and message history per topic. (Dec 2025 - Feb 2026)',
         techs:    ['C', 'TCP Sockets', 'POSIX Threads', 'Thread Pool', 'select()', 'Mutex', 'FIFO Queue', 'Static Library (NetworkLib)'],
         how:      'The system has three components: PubSubEngine (server), Publisher (message sender), and Subscriber (message receiver and validator). The server uses select() for handling multiple connections and distributes messages through a work queue processed by 4 worker threads. Data structures include SafeLinkedList (thread-safe per-node mutex), MessageQueue (FIFO history per topic — ANALOG and STATUS), and a shared Work Queue. A static NetworkLib encapsulates all TCP communication. Tested with a stress test: 10 Publishers at 5ms intervals, 5 Subscribers, 60 seconds — stable, no deadlocks. Reconnect test also passed without server restart.',
         linkText: 'github.com/VladK333 — PubSub_project',
@@ -52,7 +52,7 @@ const projects = {
     cimnms: {
         tag:      'C# · .NET · NMS · CIM · GDA',
         title:    'CIM / NMS / GDA System',
-        subtitle: 'Complete implementation of the CIM model pipeline: from EA diagram through CIM Profile, RDFS schema, generated DLL, Adapter, and Delta — all the way to NMS data loading and a GDA client application.',
+        subtitle: 'Complete implementation of the CIM model pipeline: from EA diagram through CIM Profile, RDFS schema, generated DLL, Adapter, and Delta — all the way to NMS data loading and a GDA client application. (Jan - Feb 2026)',
         techs:    ['C#', '.NET Framework', 'WPF', 'Enterprise Architect', 'CIM Tool', 'CIMET', 'GDA (Generic Data Access)', 'NMS (Network Management System)', 'Adapter Pattern', 'CIM/XML', 'RDFS/XMI'],
         how:      'The project follows the flow: EA diagram → CIM Profile → RDFS export → Generated DLL → Adapter (maps Concrete Model objects to Delta objects) → NMS (loads data and implements GDA) → GDA client. CIM/XML provides concrete data instances. The WPF client demonstrates GDA reading: all TransformerWinding objects related to the transformer with the highest GID, and objects with minimum values of specific properties. Platform target is x86. The project covers CIM model understanding, RDFS/XMI schemas, Adapter pattern, NMS class structure, ModelCodes, and correct GDA method usage.',
         linkText: 'github.com/VladK333 — DataModels_project',
@@ -72,7 +72,7 @@ const projects = {
     derms: {
         tag:      'C# · Smart Grid · UDP/TCP',
         title:    'DERMS',
-        subtitle: 'Dispatcher system for monitoring and managing the electricity production of distributed energy resources (DERs) within a Smart Grid, using UDP/TCP communication. (Jan–Feb 2025)',
+        subtitle: 'Dispatcher system for monitoring and managing the electricity production of distributed energy resources (DERs) within a Smart Grid, using UDP/TCP communication. (Jan – Jul 2025)',
         techs:    ['C#', '.NET Framework', 'WPF', 'UDP', 'TCP', 'OOP', 'Smart Grid'],
         how:      'PRMuIS_Projekat — a full dispatcher system built in C# with WPF. It communicates with distributed energy resources via UDP and TCP sockets, aggregates production data in real time, and presents it to operators through a live dashboard. I implemented the communication layer and the resource scheduling logic.',
         linkText: 'github.com/VladK333/DERMS_project',
@@ -82,7 +82,7 @@ const projects = {
     microgrid: {
         tag:      'C# · Simulation · Smart Grid',
         title:    'MicroGrid',
-        subtitle: 'Simulated electricity production and consumption in a MicroGrid with dynamic resource regulation and consumption tracking. (Nov 2024–Feb 2025)',
+        subtitle: 'Simulated electricity production and consumption in a MicroGrid with dynamic resource regulation and consumption tracking. (Nov 2024 – Jun 2025)',
         techs:    ['C#', '.NET Framework', 'WPF', 'OOP', 'Simulation', 'Smart Grid'],
         how:      'ers_E01_tim_2 — a team project simulating a MicroGrid environment. The system models producers and consumers, dynamically balancing generation against demand. I worked on the resource regulation engine and the consumption tracking module. Simulation parameters can be adjusted at runtime through the WPF interface.',
         linkText: 'github.com/VladK333/MicroGrid_project',
@@ -92,7 +92,7 @@ const projects = {
     smartgrid: {
         tag:      'MATLAB · C# · WPF · Data Analysis',
         title:    'Smart Grid Monitor',
-        subtitle: 'A system for monitoring and analysing a Smart Grid based on a dataset containing time-series data of voltage, current, frequency, energy consumption, and fault indicators. (Sep–Oct 2025)',
+        subtitle: 'A system for monitoring and analysing a Smart Grid based on a dataset containing time-series data of voltage, current, frequency, energy consumption, and fault indicators. (Sep – Oct 2025)',
         techs:    ['C#', 'WPF', 'Time-series Analysis', 'Data Visualisation'],
         how:      'VP_Projekat — the system ingests time-series Smart Grid data and provides visual dashboards for monitoring voltage, current, frequency, and energy consumption. Fault indicators are flagged in real time. The analysis pipeline is implemented in MATLAB, with a WPF front-end for the operator interface.',
         linkText: 'github.com/VladK333/SmartGridMonitor_project',
@@ -122,7 +122,7 @@ const projects = {
     floodrisk: {
         tag:      'Python · Machine Learning · Geospatial · Random Forest',
         title:    'Flood Risk ML Pipeline',
-        subtitle: 'A complete machine learning pipeline for geospatial flood risk prediction — covering data preprocessing, correlation analysis, feature selection, and hyperparameter-tuned Random Forest classification on a ~16k sample dataset.',
+        subtitle: 'A complete machine learning pipeline for geospatial flood risk prediction — covering data preprocessing, correlation analysis, feature selection, and hyperparameter-tuned Random Forest classification on a ~16k sample dataset. (Nov - Dec 2025)',
         techs:    ['Python', 'scikit-learn', 'pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Random Forest', 'StandardScaler', 'One-Hot Encoding', 'VIF', 'Mutual Information', 'ANOVA', 'GridSearchCV', 'RandomizedSearchCV'],
         how:      'The pipeline is structured in 6 parts. Part 1 loads and explores ~16k geospatial samples with continuous (Elevation, Slope, Rainfall, TWI, SPI), categorical (LULC, Geomorphology, Lithology, Soil), and circular (Aspect) features against a binary flood-risk target. Part 2 cleans invalid values, then applies Z-score normalization to continuous features, one-hot encoding to categorical features, and sin/cos transformation to the circular Aspect feature. Part 3 runs Pearson, Point-Biserial, and Chi-Square / Cramér\'s V correlation analyses. Part 4 performs collinearity analysis via VIF and ranks features using four independent methods — Mutual Information, Random Forest Importance, Permutation Importance, and ANOVA F-Statistic — combined into a consensus ranking. Part 5 benchmarks 12 feature sets (Top 10/15/20 from each method + baseline) using 5-fold cross-validation. Part 6 fine-tunes the best model with Randomized Search followed by Grid Search, producing a confusion matrix and full classification report.',
         linkText: 'github.com/VladK333/FloodRiskML',
@@ -132,7 +132,7 @@ const projects = {
     cms: {
         tag:      'C# · WPF · XML · RTF',
         title:    'Content Management System',
-        subtitle: 'A WPF desktop application that simulates a simple CMS — built for the Usability Engineering in Infrastructure Systems course (PZ1 project).',
+        subtitle: 'A WPF desktop application that simulates a simple CMS — built for the Usability Engineering in Infrastructure Systems course. (Jul 2025)',
         techs:    ['C#', 'WPF', '.NET Framework', 'XML Serialisation', 'RTF Files', 'RichTextBox', 'OOP', 'XAML'],
         how:      'The application supports two user roles: Admin (can add, edit, and delete content) and Visitor (read-only). Login uses predefined accounts. The main view shows content in a data table with selection and bulk delete. Adding a new item opens a form with field validation and an image preview. A RichTextBox editor supports Bold, Italic, Underline, font family and size, text colour, and a word-count status bar. Viewing or editing an existing item opens a separate window — editing is only available to Admins. All user and content data is serialised to XML files; rich text is stored as RTF files with relative paths.',
         linkText: 'github.com/VladK333/CMS',
