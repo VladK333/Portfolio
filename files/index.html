@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vladana Aleksić — Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ══ HEADER ══ -->
+<header>
+    <nav class="navbar">
+        <a href="#" class="nav-logo">Vladana Aleksić</a>
+
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+
+        <button class="burger-btn" id="burger-btn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="hamburger">
+            <span class="burger-bar"></span>
+            <span class="burger-bar"></span>
+            <span class="burger-bar"></span>
+        </button>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div class="hamburger" id="hamburger">
+        <ul class="hamburger-links">
+            <li><a href="#about"      class="hamburger-link">About</a></li>
+            <li><a href="#experience" class="hamburger-link">Experience</a></li>
+            <li><a href="#portfolio"  class="hamburger-link">Portfolio</a></li>
+            <li><a href="#contacts"   class="hamburger-link">Contacts</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero -->
+    <div class="hero">
+        <div class="header-text">
+            <p class="eyebrow">Power Software Engineering · FTN Novi Sad</p>
+            <h1>Vladana<br><em>Aleksić</em></h1>
+            <p class="tagline">4th-year student passionate about Smart Grid systems, distributed software, and full-stack web development.</p>
+            <a href="#about" class="scroll-hint">Scroll to explore</a>
+        </div>
+        <div class="header-image">
+            <img
+                    src="profile.jpg"
+                    alt="Portrait of Vladana Aleksić"
+                    width="900"
+                    height="1200"
+            >
+        </div>
+    </div>
+</header>
+
+<!-- ══ SKILLS TICKER ══ -->
+<div class="skills-ticker" aria-hidden="true">
+    <div class="ticker-track">
+        <span class="ticker-item">C#</span>
+        <span class="ticker-item">C / C++</span>
+        <span class="ticker-item">Python</span>
+        <span class="ticker-item">Julia</span>
+        <span class="ticker-item">WPF</span>
+        <span class="ticker-item">MATLAB</span>
+        <span class="ticker-item">.NET Framework</span>
+        <span class="ticker-item">Flask</span>
+        <span class="ticker-item">React</span>
+        <span class="ticker-item">HTML5 &amp; CSS3</span>
+        <span class="ticker-item">JavaScript</span>
+        <span class="ticker-item">SQL</span>
+        <span class="ticker-item">Docker</span>
+        <span class="ticker-item">OOP</span>
+        <!-- duplicate for seamless loop -->
+        <span class="ticker-item">C#</span>
+        <span class="ticker-item">C / C++</span>
+        <span class="ticker-item">Python</span>
+        <span class="ticker-item">Julia</span>
+        <span class="ticker-item">WPF</span>
+        <span class="ticker-item">MATLAB</span>
+        <span class="ticker-item">.NET Framework</span>
+        <span class="ticker-item">Flask</span>
+        <span class="ticker-item">React</span>
+        <span class="ticker-item">HTML5 &amp; CSS3</span>
+        <span class="ticker-item">JavaScript</span>
+        <span class="ticker-item">SQL</span>
+        <span class="ticker-item">Docker</span>
+        <span class="ticker-item">OOP</span>
+    </div>
+</div>
+
+<!-- ══ ABOUT ══ -->
+<section id="about">
+    <div class="section-label">01 — Who I Am</div>
+    <h2>About me</h2>
+    <div class="about-grid">
+        <div class="about-image-wrap">
+            <img
+                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=700&q=80"
+                    alt="Vladana studying at a laptop"
+                    width="700"
+                    height="420"
+            >
+        </div>
+        <div class="about-bio">
+            <p>Hi! I'm Vladana Aleksić, a 4th-year student at the Faculty of Technical Sciences, University of Novi Sad, studying Power Software Engineering.</p>
+            <p>I'm an independent and responsible individual with strong analytical skills and attention to detail. I enjoy tackling complex engineering problems — whether that means designing distributed systems in C#, building full-stack web apps with Python Flask and React, or modelling data in MATLAB. I'm always eager to learn and grow.</p>
+            <p>Outside of studying I enjoy chess, long walks, and anything that involves progress and good organisation. I'm fluent in Serbian and English, and I hold certificates in Foundational C# with Microsoft, MATLAB Onramp, and completed the ARTIFACT Summer School on AI tools for urban flood risk modelling.</p>
+
+
+            <div class="stats">
+                <div>
+                    <span class="stat-num">8.41</span>
+                    <p class="stat-label">Average grade</p>
+                </div>
+                <div>
+                    <span class="stat-num">10+</span>
+                    <p class="stat-label">GitHub projects</p>
+                </div>
+                <div>
+                    <span class="stat-num">2</span>
+                    <p class="stat-label">Work experiences</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr class="divider">
+
+<!-- ══ EXPERIENCE ══ -->
+<section id="experience" class="experience-section">
+    <div class="section-label">02 — Work &amp; Study</div>
+    <h2>Experience</h2>
+    <div class="experience-list">
+
+        <div class="exp-card">
+            <div class="exp-meta">
+                <span class="exp-date">11/2025 – 2/2026</span>
+                <span class="exp-location">Novi Sad, Serbia</span>
+            </div>
+            <div class="exp-body">
+                <p class="exp-org">Faculty of Technical Sciences, University of Novi Sad</p>
+                <p class="exp-role">Demonstrator</p>
+                <p class="exp-desc">Assisting in conducting laboratory exercises, guiding students through practical tasks, and ensuring their understanding of key concepts.</p>
+            </div>
+        </div>
+
+        <div class="exp-card">
+            <div class="exp-meta">
+                <span class="exp-date">11/2025 – 12/2025</span>
+                <span class="exp-location">Remote · France</span>
+            </div>
+            <div class="exp-body">
+                <p class="exp-org">Université Gustave Eiffel, France</p>
+                <p class="exp-role">Research Intern</p>
+                <p class="exp-desc">Collaborated with a researcher on data processing, statistical analysis, and preparation of academic bibliography. Tasks included organising and analysing datasets, performing analytical procedures, and supporting documentation and literature review.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<hr class="divider">
+
+<!-- ══ PORTFOLIO ══ -->
+<section id="portfolio" class="portfolio-section">
+    <div class="section-label">03 — My Work</div>
+    <div class="portfolio-header">
+        <h2>Portfolio</h2>
+    </div>
+    <div class="portfolio-grid">
+
+        <!-- Recipe Platform -->
+        <div class="project-card">
+            <div class="project-img-wrap">
+                <img src="https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=700&q=80" alt="Recipe Platform web app" width="700" height="260">
+                <div class="project-overlay"><span class="overlay-tag">Flask · React · Docker</span></div>
+            </div>
+            <div class="project-info">
+                <p class="project-name">Recipe Platform</p>
+                <p class="project-desc">Full-stack recipe sharing platform with Python Flask backend, React + TypeScript frontend, Docker, and CI/CD to Render.</p>
+                <button class="open-window" data-project="recipe">View Details</button>
+            </div>
+        </div>
+
+        <!-- Pub/Sub TCP -->
+        <div class="project-card">
+            <div class="project-img-wrap">
+                <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=700&q=80" alt="Publisher Subscriber TCP system" width="700" height="260">
+                <div class="project-overlay"><span class="overlay-tag">C · TCP · Parallel</span></div>
+            </div>
+            <div class="project-info">
+                <p class="project-name">Publisher–Subscriber TCP System</p>
+                <p class="project-desc">Concurrent Pub/Sub messaging system in C using TCP sockets, thread pools, and thread-safe data structures.</p>
+                <button class="open-window" data-project="pubsub">View Details</button>
+            </div>
+        </div>
+
+        <!-- CIM / NMS / GDA -->
+        <div class="project-card">
+            <div class="project-img-wrap">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=700&q=80" alt="CIM NMS GDA project" width="700" height="260">
+                <div class="project-overlay"><span class="overlay-tag">C# · NMS · CIM</span></div>
+            </div>
+            <div class="project-info">
+                <p class="project-name">CIM / NMS / GDA System</p>
+                <p class="project-desc">Complete implementation of CIM model, Network Management System, and Generic Data Access communication pipeline in C# and .NET.</p>
+                <button class="open-window" data-project="cimnms">View Details</button>
+            </div>
+        </div>
+
+        <!-- FloodSafe -->
+        <div class="project-card">
+            <div class="project-img-wrap">
+                <img src="https://images.unsplash.com/photo-1504701954957-2010ec3bcec1?w=700&q=80" alt="FloodSafe navigation system" width="700" height="260">
+                <div class="project-overlay"><span class="overlay-tag">Navigation · Geolocation</span></div>
+            </div>
+            <div class="project-info">
+                <p class="project-name">FloodSafe</p>
+                <p class="project-desc">Prototype navigation system that guides people to safety during urban floods using real-time geolocation and dynamic routing.</p>
+                <button class="open-window" data-project="floodsafe">View Details</button>
+            </div>
+        </div>
+
+        <!-- DERMS -->
+        <div class="project-card">
+            <div class="project-img-wrap">
+                <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=700&q=80" alt="DERMS dispatcher system" width="700" height="260">
+                <div class="project-overlay"><span class="overlay-tag">C# · UDP/TCP · Smart Grid</span></div>
+            </div>
+            <div class="project-info">
+                <p class="project-name">DERMS</p>
+                <p class="project-desc">Dispatcher system for monitoring and managing distributed energy resources in a Smart Grid via UDP/TCP communication.</p>
+                <button class="open-window" data-project="derms">View Details</button>
+            </div>
+        </div>
+
+        <!-- MicroGrid -->
+        <div class="project-card">
+            <div class="project-img-wrap">
+                <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=700&q=80" alt="MicroGrid simulation" width="700" height="260">
+                <div class="project-overlay"><span class="overlay-tag">C# · Simulation</span></div>
+            </div>
+            <div class="project-info">
+                <p class="project-name">MicroGrid</p>
+                <p class="project-desc">Simulated electricity production and consumption in a MicroGrid with dynamic resource regulation and consumption tracking.</p>
+                <button class="open-window" data-project="microgrid">View Details</button>
+            </div>
+        </div>
+
+        <!-- Smart Grid Monitor -->
+        <div class="project-card">
+            <div class="project-img-wrap">
+                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&q=80" alt="Smart Grid monitoring system" width="700" height="260">
+                <div class="project-overlay"><span class="overlay-tag">MATLAB · C# · WPF</span></div>
+            </div>
+            <div class="project-info">
+                <p class="project-name">Smart Grid Monitor</p>
+                <p class="project-desc">Monitoring and analysing a Smart Grid using time-series data — voltage, current, frequency, energy consumption, and fault indicators.</p>
+                <button class="open-window" data-project="smartgrid">View Details</button>
+            </div>
+        </div>
+
+        <!-- Travel Agency -->
+        <div class="project-card">
+            <div class="project-img-wrap">
+                <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=700&q=80" alt="Travel agency web app" width="700" height="260">
+                <div class="project-overlay"><span class="overlay-tag">Web App · Full-stack</span></div>
+            </div>
+            <div class="project-info">
+                <p class="project-name">Travel Agency Web App</p>
+                <p class="project-desc">Web application simulating an online travel agency — browse, book, and manage travel packages, accommodations, and reservations.</p>
+                <button class="open-window" data-project="travel">View Details</button>
+            </div>
+        </div>
+
+        <!-- SCADA -->
+        <div class="project-card">
+            <div class="project-img-wrap">
+                <img src="https://images.unsplash.com/photo-1591799265444-d66432b91588?w=700&q=80" alt="SCADA battery monitoring" width="700" height="260">
+                <div class="project-overlay"><span class="overlay-tag">SCADA · C#</span></div>
+            </div>
+            <div class="project-info">
+                <p class="project-name">SCADA Battery Monitor</p>
+                <p class="project-desc">System for monitoring and managing an external battery, featuring simulated charging and discharging processes with real-time state tracking.</p>
+                <button class="open-window" data-project="scada">View Details</button>
+            </div>
+        </div>
+
+        <!-- CMS -->
+        <div class="project-card">
+            <div class="project-img-wrap">
+                <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=700&q=80" alt="CMS WPF application" width="700" height="260">
+                <div class="project-overlay"><span class="overlay-tag">C# · WPF · XML</span></div>
+            </div>
+            <div class="project-info">
+                <p class="project-name">Content Management System</p>
+                <p class="project-desc">WPF desktop CMS with role-based access (Admin/Visitor), rich text editing, image preview, and XML/RTF serialisation.</p>
+                <button class="open-window" data-project="cms">View Details</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<hr class="divider">
+
+<!-- ══ CONTACTS ══ -->
+<section id="contacts" class="contacts-section">
+    <div class="section-label">04 — Get In Touch</div>
+    <h2>Contacts</h2>
+    <div class="contacts-grid">
+        <div class="contact-item">
+            <span class="contact-label">Email</span>
+            <a href="mailto:vladanaaleksic3@gmail.com" class="contact-value">vladanaaleksic3@gmail.com</a>
+        </div>
+        <div class="contact-item">
+            <span class="contact-label">Phone</span>
+            <a href="tel:+381631751579" class="contact-value">+381 63 175 1579</a>
+        </div>
+        <div class="contact-item">
+            <span class="contact-label">Location</span>
+            <p class="contact-value">Novi Sad, Serbia</p>
+        </div>
+        <div class="contact-item">
+            <span class="contact-label">LinkedIn</span>
+            <a href="https://linkedin.com/in/vladanaaleksic" target="_blank" rel="noopener" class="contact-value">linkedin.com/in/vladanaaleksic</a>
+        </div>
+        <div class="contact-item">
+            <span class="contact-label">GitHub</span>
+            <a href="https://github.com/VladK333" target="_blank" rel="noopener" class="contact-value">github.com/VladK333</a>
+        </div>
+        <div class="contact-item">
+            <span class="contact-label">Open to</span>
+            <p class="contact-value">Internships &amp; Collaborations</p>
+        </div>
+    </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+    <p class="footer-name">Vladana Aleksić</p>
+    <div class="footer-divider"></div>
+    <p class="footer-sub">Power Software Engineering · FTN Novi Sad · Class of 2026</p>
+    <p class="footer-copy">© 2026 Vladana Aleksić — built as part of my web dev journey.</p>
+</footer>
+
+<!-- ══ POPUP TEMPLATE ══ -->
+<div class="window" id="popup" role="dialog" aria-modal="true" aria-labelledby="popup-title">
+    <div class="window-inner">
+        <button class="window-close" id="close-popup" aria-label="Close">&times;</button>
+        <div class="window-tag" id="popup-tag"></div>
+        <h3 class="window-title" id="popup-title"></h3>
+        <p class="window-subtitle" id="popup-subtitle"></p>
+        <div class="window-section">
+            <h4>Technologies used</h4>
+            <ul class="window-tags" id="popup-techs"></ul>
+        </div>
+        <div class="window-section">
+            <h4>How it was built</h4>
+            <p id="popup-how"></p>
+        </div>
+        <h4>Where to find it</h4>
+        <a class="window-link" id="popup-link" href="#" target="_blank" rel="noopener"></a>
+    </div>
+</div>
+</div>
+
+<!-- Backdrop -->
+<div class="window-backdrop" id="popup-backdrop"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
