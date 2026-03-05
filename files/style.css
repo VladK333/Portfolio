@@ -334,7 +334,7 @@ h1 em { font-style: italic; color: var(--rust-light); }
 .skills-ticker {
     background-color: var(--rust);
     overflow: hidden;
-    height: 64px;
+    height: 34px;
     display: flex;
     align-items: center;
 }
@@ -344,7 +344,7 @@ h1 em { font-style: italic; color: var(--rust-light); }
     white-space: nowrap;
 }
 .ticker-item {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     letter-spacing: 0.25em;
     text-transform: uppercase;
     color: var(--cream);
